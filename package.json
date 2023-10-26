@@ -1,0 +1,27 @@
+{
+  "name": "crud_v2",
+  "version": "1.0.0",
+  "description": "Very basic e-commerce express and mongodb app to learn the basics of building rest APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Kasie",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
