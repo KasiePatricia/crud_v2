@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Very basic e-commerce express and mongodb app to learn the basics of building rest APIs",
   "main": "index.js",
+  "serve": "node index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
