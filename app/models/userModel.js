@@ -7,10 +7,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    username: {
+    userName: {
       type: String,
       required: true,
-      unique: true,
+      // unique: true,
     },
     password: {
       type: String,
@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: ["user", "admin"],
-      default: "user",
+      // default: "user",
     },
   },
   { timestamps: true }
@@ -28,6 +28,4 @@ const userSchema = new mongoose.Schema(
 // create a model
 const userCollection = mongoose.model("users", userSchema);
 
-module.exports = {
-  userCollection,
-};
+module.exports = userCollection;

@@ -10,7 +10,7 @@ async function register(req, res) {
       const body = { fullName, userName, password, role };
 
       for (let key in body) {
-        if (body[key] === " ") {
+        if (body[key] || body[key].trim() === "") {
           errorObj[key] = `${key} must be available in request`;
         }
       }
