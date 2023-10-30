@@ -30,6 +30,4 @@ const shopitemsSchema = new mongoose.Schema(
 // create a modal
 const shopitemsCollection = mongoose.model("shopItems", shopitemsSchema);
 
-module.exports = {
-  shopitemsCollection,
-};
+module.exports = shopitemsCollection;
